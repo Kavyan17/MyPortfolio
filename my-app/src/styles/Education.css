@@ -1,0 +1,163 @@
+body {
+    background-color: #fff !important;
+    margin: 0;
+    padding: 0;
+}
+
+.education-container {
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #000;
+}
+
+.edu-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.edu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 40px 60px; /* vertical gap and horizontal gap */
+    max-width: 1100px;
+    width: 100%;
+    justify-content: center;
+}
+
+.edu-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 100%;
+    max-width: 500px;
+}
+
+.edu-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+}
+
+.edu-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.2);
+}
+
+.edu-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.edu-univ {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    color: #000;
+}
+
+.edu-info {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Container for the graduation hat and threads */
+.grad-hat-container {
+    position: relative;
+    width: 40px;  /* Adjust to your hat's image size */
+    height: 40px;
+}
+
+.grad-hat {
+    position: absolute;
+    top: -25px;  /* Adjust to position hat on the top-left corner of the container */
+    left: -25px;
+    width: 40px; /* Adjust the width as per your image size */
+    height: 40px; /* Adjust the height as per your image size */
+    transform: rotate(-45deg); /* Rotate to make the hat look tilted */
+    animation: hat-bounce 2s infinite ease-in-out;
+}
+
+/* Tassel of the hat */
+.grad-hat::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 2px;
+    height: 20px;
+    background-color: #f00; /* Red color for the tassel */
+    transform: translateX(-50%);
+}
+
+/* Hanging red threads */
+.grad-hat .thread {
+    position: absolute;
+    top: 100%; /* Positioning it at the bottom of the hat */
+    left: 0%; /* Start from the top left corner of the hat */
+    width: 2px;
+    height: 40px; /* Length of the thread */
+    background-color: #f00; /* Red color */
+    transform: translateX(-50%); /* To center the thread */
+    animation: thread-sway 2s infinite ease-in-out;
+}
+
+/* Multiple threads with slight offsets */
+.grad-hat .thread:nth-child(2) {
+    left: 5%; /* Slightly offset to create multiple threads */
+    animation-delay: 0.1s;
+}
+
+.grad-hat .thread:nth-child(3) {
+    left: -5%; /* Slightly offset to create multiple threads */
+    animation-delay: 0.2s;
+}
+
+.grad-hat-container,
+.grad-hat,
+.grad-hat::after,
+.grad-hat .thread {
+    pointer-events: none;
+}
+
+/* Animation for the hat */
+@keyframes hat-bounce {
+    0%, 100% {
+        transform: translateY(0) rotate(-45deg);
+    }
+    50% {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+.confetti-canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Animation for the hanging threads */
+@keyframes thread-sway {
+    0%, 100% {
+        transform: translateX(-50%) rotate(0deg);
+    }
+    50% {
+        transform: translateX(-50%) rotate(5deg);
+    }
+}
