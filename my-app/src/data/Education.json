@@ -2,6 +2,7 @@
     {
         "id" : 1,
         "university" : "Purdue University",
+        "pic" : ,
         "degree" : "Master's",
         "field" : "Computer Science",
         "start_date" : "Aug 2023",
@@ -11,6 +12,7 @@
     {
         "id" : 2,
         "university" : "The University of Texas at Dallas",
+        "pic" : ,
         "degree" : "Master's",
         "field" : "Computer Science",
         "start_date" : "Jan 2023",
@@ -20,6 +22,7 @@
     {
         "id" : 3,
         "university" : "Gokaraju Rangaraju Institute of Engineering and Technology",
+        "pic" : ,
         "degree" : "Bachelor's",
         "field" : "Electical and Electrnoics Engineering",
         "start_date" : "Aug 2015",
@@ -29,6 +32,7 @@
     {
         "id" : 4,
         "university" : "Sri Chaitanya Junior College",
+        "pic" : ,
         "degree" : "High School",
         "field" : "Maths Physics Chemistry",
         "start_date" : "Aug 2013",
@@ -38,6 +42,7 @@
     {
         "id" : 5,
         "university" : "St. Mary's High School",
+        "pic" : ,
         "degree" : "Secondary School",
         "field" : "",
         "start_date" : "May 2012",
