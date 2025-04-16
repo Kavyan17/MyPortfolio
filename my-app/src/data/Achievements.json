@@ -1,0 +1,58 @@
+[
+    {
+        "id" : 1,
+        "name" : "Best Team Award",
+        "year" : "Nov 2022",
+        "issued_by" : "Tata Consultancy Servcies",
+        "pic" : ""
+
+    },
+    {
+        "id" : 2,
+        "name" : "On the Spot (Team) Award",
+        "year" : "Oct 2022",
+        "issued_by" : "Tata Consultancy Servcies",
+        "pic" : ""
+
+    },
+    {
+        "id" : 3,
+        "name" : "Contextual Master Award",
+        "year" : "Sep 2022",
+        "issued_by" : "Tata Consultancy Servcies",
+        "pic" : ""
+
+    },
+    {
+        "id" : 4,
+        "name" : "On the Spot Award",
+        "year" : "Feb 2022",
+        "issued_by" : "Tata Consultancy Servcies",
+        "pic" : ""
+
+    },
+    {
+        "id" : 5,
+        "name" : "On the Spot (Team) Award",
+        "year" : "Dec 2021",
+        "issued_by" : "Tata Consultancy Servcies",
+        "pic" : ""
+
+    },
+    {
+        "id" : 6,
+        "name" : "Best Team Award",
+        "year" : "Oct 2021",
+        "issued_by" : "Tata Consultancy Servcies",
+        "pic" : ""
+
+    },
+    {
+        "id" : 7,
+        "name" : "On the Spot Award",
+        "year" : "Oct 2021",
+        "issued_by" : "Tata Consultancy Servcies",
+        "pic" : ""
+
+    }
+]
