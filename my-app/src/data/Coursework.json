@@ -1,0 +1,79 @@
+[
+    {
+        "id" : 1,
+        "course_no" : "CS 5348",
+        "title" : "Operating Systems Concepts",
+        "grade" : "A",
+        "assosciated_with" : "The University of Texas at Dallas"
+    },
+    {
+        "id" : 2,
+        "course_no" : "CS 6360",
+        "title" : "Database Design",
+        "grade" : "A",
+        "assosciated_with" : "The University of Texas at Dallas"
+    },
+    {
+        "id" : 3,
+        "course_no" : "CS 3341",
+        "title" : "Probability and Statistics in Computer Science and Software Engineering",
+        "grade" : "A",
+        "assosciated_with" : "The University of Texas at Dallas"
+    },
+    {
+        "id" : 4,
+        "course_no" : "ACS 56000-02",
+        "title" : "Software Engineering",
+        "grade" : "A",
+        "assosciated_with" : "Purdue University"
+    },
+    {
+        "id" : 5,
+        "course_no" : "CS 59000-01",
+        "title" : "Web Development",
+        "grade" : "A",
+        "assosciated_with" : "Purdue University"
+    },
+    {
+        "id" : 6,
+        "course_no" : "CS 59000",
+        "title" : "NLP-Large Language Models Independent Study",
+        "grade" : "A",
+        "assosciated_with" : "Purdue University"
+    },
+    {
+        "id" : 7,
+        "course_no" : "CS 57200",
+        "title" : "Heuristic Problem Solving",
+        "grade" : "A",
+        "assosciated_with" : "Purdue University"
+    },
+    {
+        "id" : 8,
+        "course_no" : "ACS 56400",
+        "title" : "Human Computer Interaction",
+        "grade" : "A",
+        "assosciated_with" : "Purdue University"
+    },
+    {
+        "id" : 10,
+        "course_no" : "CS 59000-03",
+        "title" : "Application of Deep Learning",
+        "grade" : "A",
+        "assosciated_with" : "Purdue University"
+    },
+    {
+        "id" : 10,
+        "course_no" : "CS 59000",
+        "title" : "Game Design Core Skills",
+        "grade" : "A",
+        "assosciated_with" : "Purdue University"
+    },
+    {
+        "id" : 11,
+        "course_no" : "CS 59000-04",
+        "title" : "User Exp UX Design And Ethics",
+        "grade" : "A",
+        "assosciated_with" : "Purdue University"
+    }
+]

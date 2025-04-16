@@ -1,0 +1,32 @@
+[
+    {
+        "id" : 1,
+        "skill" : "C++",
+        "level" : 95
+    },
+    {
+        "id" : 1,
+        "skill" : "Java",
+        "level" : 90
+    },
+    {
+        "id" : 1,
+        "skill" : "C#",
+        "level" : 90
+    },
+    {
+        "id" : 1,
+        "skill" : "C",
+        "level" : 90
+    },
+    {
+        "id" : 1,
+        "skill" : "SQL",
+        "level" : 90
+    },
+    {
+        "id" : 1,
+        "skill" : "HTML",
+        "level" : 90
+    }
+]
