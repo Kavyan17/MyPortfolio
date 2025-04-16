@@ -7,6 +7,7 @@ import utdLogo from "../../assets/UTD.jpeg";
 import grietLogo from "../../assets/GRIET.jpeg";
 import sriChaitanyaLogo from "../../assets/SC.jpeg";
 import stmarysLogo from "../../assets/STM.jpg";
+import gradHat from "../../assets/grad-cap.png";
 
 const logos = {
     1: purdueLogo,
@@ -54,7 +55,7 @@ const Education = () => {
                         />
                         <div className="grad-hat-container">
                             <img
-                                src="/assets/grad-hat.jpg"
+                                src={gradHat}
                                 alt="Grad Hat"
                                 className="grad-hat"
                             />
