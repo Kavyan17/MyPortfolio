@@ -1,19 +1,9 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .work-container {
+.work-container {
     padding: 40px 20px;
+    background: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fff;
-    color: #000;
-    position: relative;
-    overflow: hidden;
   }
   
   .work-title {
@@ -21,85 +11,123 @@ body {
     font-weight: bold;
     margin-bottom: 40px;
     text-align: center;
+    color: #000;
   }
   
   .work-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: 40px 60px;
-    max-width: 1200px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
     width: 100%;
+    max-width: 1100px;
     justify-content: center;
-    position: relative;
-    transition: filter 0.3s ease;
   }
   
   .work-card {
-    position: relative;
-    transition: transform 0.4s ease, z-index 0.4s ease;
-    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
   }
   
-  .computer-frame {
-    background-color: #e0e0e0;
-    border: 8px solid #333;
-    border-radius: 20px 20px 5px 5px;
-    padding: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    height: 300px;
+  .laptop-frame {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    animation: laptopGlow 2s infinite ease-in-out;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .laptop-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+  }
+  
+  /* Default screen content (visible always) */
+  .screen-default {
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    width: 76%;
+    height: 60%;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 8px;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: transform 0.4s ease;
-  }
-  
-  .screen-content {
-    text-align: center;
-  }
-  
-  .screen-content h3 {
-    font-size: 1.4rem;
-    margin-bottom: 10px;
-  }
-  
-  .screen-content p {
-    margin: 4px 0;
-    font-size: 1rem;
-  }
-  
-  /* Hover Effects */
-  .work-card.hovered {
-    transform: scale(1.3);
-    z-index: 10;
-  }
-  
-  .work-grid .work-card:not(.hovered) {
-    filter: blur(3px);
-    transition: filter 0.4s ease;
-  }
-  
-  /* Optional: Add slight dark overlay background while one is focused */
-  .work-card.hovered .computer-frame {
-    background-color: #d3d3d3;
-  }
-  
-  /* Smooth appearance */
-  .blur-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.6);
-    backdrop-filter: blur(3px);
-    z-index: 2;
+    line-height: 1.4;
     pointer-events: none;
-    animation: fadeBlur 0.4s ease forwards;
+    transition: opacity 0.5s ease;
   }
   
-  @keyframes fadeBlur {
-    from {
-      opacity: 0;
+  /* Hover description (hidden by default) */
+  .screen-hover {
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    width: 76%;
+    height: 60%;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 8px;
+    color: #00ff00;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Hover effects */
+  .work-card:hover .laptop-frame {
+    box-shadow: 0 8px 16px rgba(0, 255, 0, 0.5);
+    transform: scale(1.05);
+  }
+  
+  .work-card:hover .screen-default {
+    opacity: 0;
+  }
+  
+  .work-card:hover .screen-hover {
+    animation: bootUp 1.5s ease forwards;
+  }
+  
+  /* Glow animation */
+  @keyframes laptopGlow {
+    0%, 100% {
+      box-shadow: 0 0 10px 2px #00ff00;
     }
-    to {
+    50% {
+      box-shadow: 0 0 20px 6px #00ff00;
+    }
+  }
+  
+  /* Boot-up animation */
+  @keyframes bootUp {
+    0% {
+      opacity: 0;
+      background: rgba(0, 0, 0, 0);
+    }
+    50% {
+      background: rgba(0, 0, 0, 0.85);
+      opacity: 1;
+    }
+    100% {
+      background: rgba(0, 0, 0, 0.85);
       opacity: 1;
     }
   }
