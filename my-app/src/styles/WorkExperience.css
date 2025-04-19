@@ -50,12 +50,12 @@
   /* Default screen content (visible always) */
   .screen-default {
     position: absolute;
-    top: 18%;
-    left: 12%;
-    width: 76%;
-    height: 60%;
+    top: 15%;
+    left: 22%;
+    width: 61%;
+    height: 48%;
     background: rgba(0, 0, 0, 0.85);
-    border-radius: 8px;
+    border-radius: 0px;
     color: #00ff00;
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.9rem;
@@ -67,6 +67,28 @@
     line-height: 1.4;
     pointer-events: none;
     transition: opacity 0.5s ease;
+  }
+  
+  .screen-default h3 {
+    margin-bottom: 5px; 
+  }
+
+  .screen-default p {
+    margin-top: 0; 
+  }
+  .screen-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .org-logo {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%; /* make it circular */
+    border: 2px solid #00ff00; 
   }
   
   /* Hover description (hidden by default) */
@@ -107,15 +129,14 @@
   }
   
   /* Glow animation */
-  @keyframes laptopGlow {
-    0%, 100% {
-      box-shadow: 0 0 10px 2px #00ff00;
-    }
-    50% {
-      box-shadow: 0 0 20px 6px #00ff00;
-    }
+@keyframes laptopGlow {
+  0%, 100% {
+    box-shadow: 0 0 10px 2px var(--glow-color, #00ff00);
   }
-  
+  50% {
+    box-shadow: 0 0 20px 6px var(--glow-color, #00ff00);
+  }
+}
   /* Boot-up animation */
   @keyframes bootUp {
     0% {
