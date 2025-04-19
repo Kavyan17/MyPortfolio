@@ -1,6 +1,16 @@
 [
     {
         "id" : 1,
+        "title" : "Software Engieer",
+        "org" : "Luke 9:23 Ministries",
+        "pic" : "",
+        "start_date" : "Apr 2025",
+        "end_date" : "Present",
+        "location" : "USA",
+        "description" : ""
+    },
+    {
+        "id" : 2,
         "title" : "Student Service Leader",
         "org" : "Purdue University Fort Wayne",
         "pic" : "",
@@ -10,7 +20,7 @@
         "description" : ""
     },
     {
-        "id" : 2,
+        "id" : 3,
         "title" : "Software Engieer",
         "org" : "Tata Consultancy Services",
         "pic" : "",
@@ -20,7 +30,17 @@
         "description" : ""
     },
     {
-        "id" : 3,
+        "id" : 4,
+        "title" : "Student Tutor",
+        "org" : "Freelance",
+        "pic" : "",
+        "start_date" : "Jan 2016",
+        "end_date" : "Feb 2020",
+        "location" : "India",
+        "description" : ""
+    },
+    {
+        "id" : 5,
         "title" : "Engineering Intern",
         "org" : "Siemens",
         "pic" : "",
@@ -30,7 +50,7 @@
         "description" : ""
     },
     {
-        "id" : 4,
+        "id" : 6,
         "title" : "Electrical Engineering Intern",
         "org" : "Bharat Heavy Electricals Limited",
         "pic" : "",
