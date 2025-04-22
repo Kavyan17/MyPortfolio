@@ -67,6 +67,7 @@
     line-height: 1.4;
     pointer-events: none;
     transition: opacity 0.5s ease;
+    overflow: hidden;
   }
   
   .screen-default h3 {
@@ -74,8 +75,18 @@
   }
 
   .screen-default p {
-    margin-top: 0; 
+    margin-top: 5px;
   }
+
+  .screen-default h3,
+  .screen-default p {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: 3px solid #00ff00; /*Cursor effect */
+    animation: typing 2s steps(30) 1s forwards, blink 0.75s step-end infinite;
+  }
+
   .screen-header {
     display: flex;
     align-items: center;
@@ -153,3 +164,27 @@
     }
   }
   
+/* Typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* Blinking cursor */
+@keyframes blink {
+  0% {
+    border-right-color: transparent;
+  }
+  50% {
+    border-right-color: #00ff00;
+  }
+  100% {
+    border-right-color: transparent;
+  }
+}
+
+
