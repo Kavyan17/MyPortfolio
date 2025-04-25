@@ -1,0 +1,67 @@
+.course-container {
+    padding: 40px 20px;
+    background: #f2f2f2;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  .course-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+  }
+  
+  .bookshelf {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .book {
+    width: 200px;
+    height: 260px;
+    perspective: 1000px;
+    position: relative;
+  }
+  
+  .book-cover,
+  .book-content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    transition: transform 0.8s;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+  }
+  
+  .book-cover {
+    background: linear-gradient(135deg, #6b5b95, #b8a9c9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transform: rotateY(0deg);
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  .book-content {
+    background: white;
+    color: #333;
+    transform: rotateY(180deg);
+    padding: 20px;
+    overflow-y: auto;
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+  
+  .book:hover .book-cover {
+    transform: rotateY(-180deg);
+  }
+  
+  .book:hover .book-content {
+    transform: rotateY(0deg);
+  }
+  
