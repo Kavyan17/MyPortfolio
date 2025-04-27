@@ -2,10 +2,13 @@
     {
         "id" : 1,
         "name" : "C++",
-        "icon" : "",
+        "icon" : "cpp.png",
         "level" : "Expert"
     },
     {
-
+        "id" : 2,
+        "name" : "Java",
+        "icon" : "java.png",
+        "level" : "Expert"
     }
 ]
