@@ -103,54 +103,36 @@
     },
     {
         "id" : 18,
-        "name" : "JSON",
-        "icon" : "json.png",
-        "level" : "Expert"
-    },
-    {
-        "id" : 19,
         "name" : "Mocha",
         "icon" : "mocha.png",
         "level" : "Expert"
     },
     {
+        "id" : 19,
+        "name" : "MATLAB",
+        "icon" : "matlab.png",
+        "level" : "Expert"
+    },
+    {
         "id" : 20,
-        "name" : "MATLAB",
-        "icon" : "matlab.png",
-        "level" : "Expert"
-    },
-    {
-        "id" : 21,
-        "name" : "MATLAB",
-        "icon" : "matlab.png",
-        "level" : "Expert"
-    },
-    {
-        "id" : 22,
         "name" : "PyTorch",
         "icon" : "pytorch.png",
         "level" : "Expert"
     },
     {
-        "id" : 23,
+        "id" : 21,
         "name" : "scikit-learn",
         "icon" : "scikit-learn.png",
         "level" : "Expert"
     },
     {
-        "id" : 24,
-        "name" : "scikit-learn",
-        "icon" : "scikit-learn.png",
-        "level" : "Expert"
-    },
-    {
-        "id" : 23,
+        "id" : 22,
         "name" : "TensorFlow",
         "icon" : "tensorflow.png",
         "level" : "Expert"
     },
     {
-        "id" : 24,
+        "id" : 23,
         "name" : "VS Code",
         "icon" : "vscode.png",
         "level" : "Expert"
