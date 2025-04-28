@@ -10,5 +10,149 @@
         "name" : "Java",
         "icon" : "java.png",
         "level" : "Expert"
+    },
+    {
+        "id" : 3,
+        "name" : "C",
+        "icon" : "c.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 4,
+        "name" : "Python",
+        "icon" : "python.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 5,
+        "name" : "C#",
+        "icon" : "c#.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 6,
+        "name" : "MySQL",
+        "icon" : "MySQL.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 7,
+        "name" : "PostgresSQL",
+        "icon" : "PostgresSQL.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 8,
+        "name" : "React",
+        "icon" : "python.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 9,
+        "name" : "JavaScript",
+        "icon" : "js.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 10,
+        "name" : "TypeScript",
+        "icon" : "ts.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 11,
+        "name" : "Node JS",
+        "icon" : "node.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 12,
+        "name" : "GraphQL",
+        "icon" : "graphql.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 13,
+        "name" : "Git",
+        "icon" : "git.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 14,
+        "name" : "Google Cloud Platform",
+        "icon" : "gcp.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 15,
+        "name" : "Eclipse",
+        "icon" : "eclipse.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 16,
+        "name" : "Jira",
+        "icon" : "jira.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 17,
+        "name" : "JSON",
+        "icon" : "json.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 18,
+        "name" : "JSON",
+        "icon" : "json.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 19,
+        "name" : "Mocha",
+        "icon" : "mocha.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 20,
+        "name" : "MATLAB",
+        "icon" : "matlab.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 21,
+        "name" : "MATLAB",
+        "icon" : "matlab.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 22,
+        "name" : "PyTorch",
+        "icon" : "pytorch.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 23,
+        "name" : "scikit-learn",
+        "icon" : "scikit-learn.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 24,
+        "name" : "scikit-learn",
+        "icon" : "scikit-learn.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 23,
+        "name" : "TensorFlow",
+        "icon" : "tensorflow.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 24,
+        "name" : "VS Code",
+        "icon" : "vscode.png",
+        "level" : "Expert"
     }
 ]
