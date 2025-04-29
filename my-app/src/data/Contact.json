@@ -1,1 +1,32 @@
-[]
+[
+    {
+        "id": 1,
+        "media": "github",
+        "link": "https://github.com/Kavyan17"
+    },
+    {
+        "id": 2,
+        "media": "leetcode",
+        "link": "https://leetcode.com/u/Kavyan17/"
+    },
+    {
+        "id": 3,
+        "media": "gmail",
+        "link": "mailto:kavyanandigam17@gmail.com"
+    },
+    {
+        "id": 4,
+        "media": "codeforces",
+        "link": "https://codeforces.com/profile/kavyan17"
+    },
+    {
+        "id": 5,
+        "media": "linkedin",
+        "link": "https://www.linkedin.com/in/kavya-nandigam-b6b324161/"
+    },
+    {
+        "id": 6,
+        "media": "medium",
+        "link": "https://medium.com/@kavyanandigam17"
+    }
+]
