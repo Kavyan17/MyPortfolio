@@ -1,5 +1,5 @@
 import React from 'react';
-import contactData from '../../data/ContactData.json';
+import contactData from '../../data/Contact.json';
 import '../../styles/Contact.css';
 
 import github from '../../assets/contact-icons/github.png';
