@@ -9,6 +9,8 @@ import csharp from '../../assets/tech-icons/csharp.png';
 import mysql from '../../assets/tech-icons/MySQL.png';
 import postgres from '../../assets/tech-icons/PostgresSQL.png';
 import react from '../../assets/tech-icons/React.png'; 
+import html from '../../assets/tech-icons/html.png'; 
+import css from '../../assets/tech-icons/css.png'; 
 import js from '../../assets/tech-icons/js.png';
 import ts from '../../assets/tech-icons/ts.png';
 import node from '../../assets/tech-icons/node.png';
@@ -34,6 +36,8 @@ const icons = {
   "MySQL.png": mysql,
   "PostgresSQL.png": postgres,
   "React.png": react,
+  "html.png": html,
+  "css.png": css,
   "js.png": js,
   "ts.png": ts,
   "node.png": node,

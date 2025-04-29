@@ -40,7 +40,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 90px;   /* 🔧 Adjust circle size here */
+    width: 90px; 
     height: 90px;
     transform: translate(-50%, -50%);
     border-radius: 50%;

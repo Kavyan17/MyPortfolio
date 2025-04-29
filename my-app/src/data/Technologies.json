@@ -49,90 +49,102 @@
     },
     {
         "id" : 9,
+        "name" : "HTML5",
+        "icon" : "html.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 10,
+        "name" : "CSS3",
+        "icon" : "css.png",
+        "level" : "Expert"
+    },
+    {
+        "id" : 11,
         "name" : "JavaScript",
         "icon" : "js.png",
         "level" : "Expert"
     },
     {
-        "id" : 10,
+        "id" : 12,
         "name" : "TypeScript",
         "icon" : "ts.png",
         "level" : "Expert"
     },
     {
-        "id" : 11,
+        "id" : 13,
         "name" : "Node JS",
         "icon" : "node.png",
         "level" : "Expert"
     },
     {
-        "id" : 12,
+        "id" : 14,
         "name" : "GraphQL",
         "icon" : "graphql.png",
         "level" : "Expert"
     },
     {
-        "id" : 13,
+        "id" : 15,
         "name" : "Git",
         "icon" : "git.png",
         "level" : "Expert"
     },
     {
-        "id" : 14,
+        "id" : 16,
         "name" : "Google Cloud Platform",
         "icon" : "gcp.png",
         "level" : "Expert"
     },
     {
-        "id" : 15,
+        "id" : 17,
         "name" : "Eclipse",
         "icon" : "eclipse.png",
         "level" : "Expert"
     },
     {
-        "id" : 16,
+        "id" : 18,
         "name" : "Jira",
         "icon" : "jira.png",
         "level" : "Expert"
     },
     {
-        "id" : 17,
+        "id" : 19,
         "name" : "JSON",
         "icon" : "json.png",
         "level" : "Expert"
     },
     {
-        "id" : 18,
+        "id" : 20,
         "name" : "Mocha",
         "icon" : "mocha.png",
         "level" : "Expert"
     },
     {
-        "id" : 19,
+        "id" : 21,
         "name" : "MATLAB",
         "icon" : "matlab.png",
         "level" : "Expert"
     },
     {
-        "id" : 20,
+        "id" : 22,
         "name" : "PyTorch",
         "icon" : "pytorch.png",
         "level" : "Expert"
     },
     {
-        "id" : 21,
+        "id" : 23,
         "name" : "scikit-learn",
         "icon" : "scikit-learn.png",
         "level" : "Expert"
     },
     {
-        "id" : 22,
+        "id" : 24,
         "name" : "TensorFlow",
         "icon" : "tensorflow.png",
         "level" : "Expert"
     },
     {
-        "id" : 23,
+        "id" : 25,
         "name" : "VS Code",
         "icon" : "vscode.png",
         "level" : "Expert"
