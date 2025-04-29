@@ -5,16 +5,19 @@
   }
   
   .tech-title {
+    font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
-    color: black;
-    margin-bottom: 70px;
+    color: #ff4500;
+    margin-bottom: 90px;
+    -webkit-text-stroke: 1px black; 
+    text-stroke: 1px black;       
   }
   
   .tech-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
+    gap: 30px;
   }
   
   .tech-icon-wrapper {
@@ -46,22 +49,23 @@
     border-radius: 50%;
     background-color: transparent;
     box-shadow: 
-      0 0 8px #4dd0e1,
-      0 0 16px #4dd0e1,
-      0 0 24px #4dd0e1;
+    0 0 8px #ff4500,
+    0 0 16px #ff6347,
+    0 0 24px #ff8c00;
     animation: pulse 5s infinite ease-in-out;
     z-index: 1;
   }
   
   @keyframes pulse {
     0% {
-      box-shadow: 0 0 5px #4dd0e1, 0 0 10px #4dd0e1, 0 0 15px #4dd0e1;
+      box-shadow: 0 0 5px #ff4500, 0 0 10px #ff6347, 0 0 15px #ff8c00;
     }
     50% {
-      box-shadow: 0 0 15px #4dd0e1, 0 0 25px #4dd0e1, 0 0 35px #4dd0e1;
+      box-shadow: 0 0 15px #ff4500, 0 0 20px #ff6347, 0 0 30px #ff8c00;
     }
     100% {
-      box-shadow: 0 0 5px #4dd0e1, 0 0 10px #4dd0e1, 0 0 15px #4dd0e1;
+      box-shadow: 0 0 5px #ff4500, 0 0 10px #ff6347, 0 0 15px #ff8c00;
     }
-  }
+  }  
+
   

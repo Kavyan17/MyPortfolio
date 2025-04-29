@@ -62,7 +62,7 @@ const uniqueTechData = Array.from(
 const Technologies = () => {
   return (
     <div className="tech-container">
-      <h2 className="tech-title">🚀 Technologies I Know</h2>
+      <h2 className="tech-title">👩‍💻 My Dev Arsenal</h2>
       <div className="tech-grid">
         {techData.map((tech) => (
           <div key={tech.id} className="tech-icon-wrapper">
