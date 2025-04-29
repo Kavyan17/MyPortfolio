@@ -33,7 +33,7 @@ const icons = {
   "c#.png": csharp,
   "MySQL.png": mysql,
   "PostgresSQL.png": postgres,
-  "react.png": react,
+  "React.png": react,
   "js.png": js,
   "ts.png": ts,
   "node.png": node,
