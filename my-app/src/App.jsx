@@ -5,6 +5,7 @@ import WorkExp from './components/WorkExperience/WorkExp.jsx';
 import CourseWork from './components/CourseWork/CourseWork.jsx';
 import Technologies from './components/Technologies/Technologies.jsx';
 import Contact from './components/Contact/Contact.jsx';
+import Projects from './components/Projects/Projects.jsx';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
       <Link to="/coursework" className="nav-link">Go to CourseWork</Link>
       <Link to="/technologies" className="nav-link">Go to Technologies</Link>
       <Link to="/contact" className="nav-link">Go to Contact</Link>
+      <Link to="/projects" className="nav-link">Go to Projects</Link>
     </div>
   );
 }
@@ -29,6 +31,7 @@ function App() {
         <Route path="/coursework" element={<CourseWork />} />
         <Route path="/technologies" element={<Technologies />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
     </Router>
   );

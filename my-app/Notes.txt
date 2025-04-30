@@ -1,3 +1,4 @@
 1. Fix grad cap effect in Education page
 2. fix hover effect in Work page
 3. Fix the description view on hover in Work page
+4. Add react particles to technologies page
