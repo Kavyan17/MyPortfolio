@@ -7,16 +7,36 @@ import Technologies from './components/Technologies/Technologies.jsx';
 import Contact from './components/Contact/Contact.jsx';
 import Projects from './components/Projects/Projects.jsx';
 
+function Header() {
+  return (
+    <header className="header">
+      <h2>My Portfolio</h2>
+      <nav>
+        <Link to="/" className="nav-link">Home</Link>
+        <Link to="/education" className="nav-link">Education</Link>
+        <Link to="/workexp" className="nav-link">Work Exp</Link>
+        <Link to="/coursework" className="nav-link">Coursework</Link>
+        <Link to="/technologies" className="nav-link">Technologies</Link>
+        <Link to="/projects" className="nav-link">Projects</Link>
+        <Link to="/contact" className="nav-link">Contact</Link>
+      </nav>
+    </header>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} My Portfolio. All rights reserved.</p>
+    </footer>
+  );
+}
+
 function Home() {
   return (
     <div className="home-page">
       <h1>Welcome to My Portfolio</h1>
-      <Link to="/education" className="nav-link">Go to Education</Link>
-      <Link to="/workexp" className="nav-link">Go to Work Exp</Link>
-      <Link to="/coursework" className="nav-link">Go to CourseWork</Link>
-      <Link to="/technologies" className="nav-link">Go to Technologies</Link>
-      <Link to="/contact" className="nav-link">Go to Contact</Link>
-      <Link to="/projects" className="nav-link">Go to Projects</Link>
+      <p>Explore the sections above to learn more about my background and work.</p>
     </div>
   );
 }
@@ -24,15 +44,21 @@ function Home() {
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/workexp" element={<WorkExp />} />
-        <Route path="/coursework" element={<CourseWork />} />
-        <Route path="/technologies" element={<Technologies />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-      </Routes>
+      <div className="app-container">
+        <Header />
+        <main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/workexp" element={<WorkExp />} />
+            <Route path="/coursework" element={<CourseWork />} />
+            <Route path="/technologies" element={<Technologies />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/projects" element={<Projects />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }
