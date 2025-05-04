@@ -10,6 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tsparticles/preset-firefly": "^3.2.0",
+    "@tsparticles/react": "^3.0.0",
     "canvas-confetti": "^1.9.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
