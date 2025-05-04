@@ -34,7 +34,8 @@
     height: 50px;
     object-fit: contain;
     z-index: 2;
-    margin-top: 60px;
+    margin-top: 62px;
+    margin-right: 3px;
   }
   
   /* Neon circle behind the icon */
