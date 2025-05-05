@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home/Home.jsx';
 import Education from './components/Education/Education.jsx';
 import WorkExp from './components/WorkExperience/WorkExp.jsx';
 import CourseWork from './components/CourseWork/CourseWork.jsx';
@@ -10,7 +11,7 @@ import Projects from './components/Projects/Projects.jsx';
 function Header() {
   return (
     <header className="header">
-      <h2>My Portfolio</h2>
+      <h2>Kavya Nandigam's Portfolio</h2>
       <nav>
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/education" className="nav-link">Education</Link>
@@ -32,14 +33,14 @@ function Footer() {
   );
 }
 
-function Home() {
-  return (
-    <div className="home-page">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Explore the sections above to learn more about my background and work.</p>
-    </div>
-  );
-}
+// function Home() {
+//   return (
+//     <div className="home-page">
+//       <h1>Welcome to My Portfolio</h1>
+//       <p>Explore the sections above to learn more about my background and work.</p>
+//     </div>
+//   );
+// }
 
 function App() {
   return (
