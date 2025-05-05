@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home/Home.jsx';
 import Education from './components/Education/Education.jsx';
@@ -13,16 +13,17 @@ function Header() {
     <header className="header">
       <h2>Kavya Nandigam's Portfolio</h2>
       <nav>
-        <Link to="/" className="nav-link">Home</Link>
-        <Link to="/education" className="nav-link">Education</Link>
-        <Link to="/workexp" className="nav-link">Work Exp</Link>
-        <Link to="/coursework" className="nav-link">Coursework</Link>
-        <Link to="/technologies" className="nav-link">Technologies</Link>
-        <Link to="/projects" className="nav-link">Projects</Link>
+        <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link home-active' : 'nav-link'}>Home</NavLink>
+        <NavLink to="/education" className={({ isActive }) => isActive ? 'nav-link education-active' : 'nav-link'}>Education</NavLink>
+        <NavLink to="/workexp" className={({ isActive }) => isActive ? 'nav-link workexp-active' : 'nav-link'}>Work Exp</NavLink>
+        <NavLink to="/coursework" className={({ isActive }) => isActive ? 'nav-link coursework-active' : 'nav-link'}>Coursework</NavLink>
+        <NavLink to="/technologies" className={({ isActive }) => isActive ? 'nav-link tech-active' : 'nav-link'}>Technologies</NavLink>
+        <NavLink to="/projects" className={({ isActive }) => isActive ? 'nav-link projects-active' : 'nav-link'}>Projects</NavLink>
       </nav>
     </header>
   );
 }
+
 
 function Footer() {
   return (
