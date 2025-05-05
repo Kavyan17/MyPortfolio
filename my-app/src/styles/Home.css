@@ -1,0 +1,72 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+    color: #000;
+}
+
+.intro-section {
+    background-color: #1e2a38;
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    padding-right: 40px;
+}
+
+.intro-section h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.intro-section p {
+    color: #00cfff;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.image-section {
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+}
+
+.image-wrapper {
+    position: relative;
+    padding: 8px;
+    border-radius: 10%;
+    background: linear-gradient(45deg, #0ff, #f0f, #0f0, #ff0, #0ff);
+    background-size: 400% 400%;
+    animation: neon-border 5s linear infinite;
+    box-shadow: 0 0 15px #0ff;
+}
+
+@keyframes neon-border {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}

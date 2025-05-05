@@ -12,14 +12,14 @@ main {
 
 /* Header styles */
 .header {
-  background-color: #f0f0f0;
+  /* background-color: #f0f0f0; */
   padding: 1rem 2rem;
   text-align: center;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
 }
 
 .header h2 {
-  margin: 0.5rem 0;
+  color: black;
 }
 
 .header .nav-link {
@@ -34,10 +34,10 @@ main {
 
 /* Footer styles */
 .footer {
-  background-color: #dac20ce9;
+  /* background-color: #dac20ce9; */
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
   color: #555;
-  border-top: 1px solid #ddd;
+  /* border-top: 1px solid #ddd; */
 }

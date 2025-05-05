@@ -5,7 +5,7 @@ import laptopImage from '../../assets/laptop.png';
 import purdueLogo from "../../assets/PFW.jpeg";
 import luke from "../../assets/LUKE.avif";
 import tcs from "../../assets/TCS.jpeg";
-import profile from "../../assets/profile.jpeg";
+import profile from "../../assets/profile/profile.jpeg";
 import siemens from "../../assets/SIEMENS.jpeg";
 import bhel from "../../assets/BHEL.jpeg";
 
