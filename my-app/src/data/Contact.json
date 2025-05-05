@@ -26,6 +26,11 @@
     },
     {
         "id": 6,
+        "media": "wordpress",
+        "link": "https://awtales.wordpress.com/"
+    },
+    {
+        "id": 7,
         "media": "medium",
         "link": "https://medium.com/@kavyanandigam17"
     }

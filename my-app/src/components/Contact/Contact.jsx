@@ -8,6 +8,7 @@ import gmail from '../../assets/contact-icons/gmail.png';
 import codeforces from '../../assets/contact-icons/codeforces.png';
 import linkedin from '../../assets/contact-icons/linkedin.png';
 import medium from '../../assets/contact-icons/medium.png';
+import wordpress from '../../assets/contact-icons/wordpress.png';
 
 const icons = {
   github,
@@ -15,6 +16,7 @@ const icons = {
   gmail,
   codeforces,
   linkedin,
+  wordpress,
   medium,
 };
 
