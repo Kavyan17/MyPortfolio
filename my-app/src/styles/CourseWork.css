@@ -1,15 +1,16 @@
 .course-container {
     padding: 40px 20px;
-    background: #f2f2f2;
-    min-height: 100vh;
+    /* background: #f2f2f2; */
+    min-height: auto;
     text-align: center;
   }
   
-  .course-title {
+  /* .course-title {
     font-size: 2.5rem;
     margin-bottom: 40px;
   }
-  
+   */
+   
   .bookshelf {
     display: flex;
     flex-wrap: wrap;
@@ -18,8 +19,8 @@
   }
   
   .book {
-    width: 200px;
-    height: 260px;
+    width: 180px;
+    height: 200px;
     perspective: 1000px;
     position: relative;
   }
