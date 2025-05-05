@@ -17,7 +17,7 @@ const Coursework = () => {
 
   return (
     <div className="course-container">
-      <h2 className="course-title">📚 My Coursework Journey</h2>
+      {/* <h2 className="course-title">📚 My Coursework Journey</h2> */}
 
       {/* Put audio here */}
       <audio ref={audioRef} src={pageTurnSound} preload="auto" />
