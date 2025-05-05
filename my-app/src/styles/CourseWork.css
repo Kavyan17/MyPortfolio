@@ -1,5 +1,5 @@
 .course-container {
-    padding: 40px 20px;
+    padding: 20px 20px;
     /* background: #f2f2f2; */
     min-height: auto;
     text-align: center;
@@ -15,7 +15,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 40px;
+    gap: 50px;
   }
   
   .book {
@@ -32,7 +32,7 @@
     position: absolute;
     backface-visibility: hidden;
     border-radius: 10px;
-    transition: transform 0.8s;
+    transition: transform 1s;
     box-shadow: 0 8px 16px rgba(0,0,0,0.3);
   }
   
@@ -52,7 +52,7 @@
     background: white;
     color: #333;
     transform: rotateY(180deg);
-    padding: 20px;
+    /* padding: 20px; */
     overflow-y: auto;
     font-size: 0.9rem;
     line-height: 1.4;
