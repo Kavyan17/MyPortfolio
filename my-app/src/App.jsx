@@ -19,7 +19,6 @@ function Header() {
         <Link to="/coursework" className="nav-link">Coursework</Link>
         <Link to="/technologies" className="nav-link">Technologies</Link>
         <Link to="/projects" className="nav-link">Projects</Link>
-        <Link to="/contact" className="nav-link">Contact</Link>
       </nav>
     </header>
   );
@@ -28,7 +27,12 @@ function Header() {
 function Footer() {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} Kavya's Portfolio. All rights reserved.</p>
+      <div className="footer-left">
+          <p>&copy; {new Date().getFullYear()} Kavya's Portfolio. All rights reserved.</p>
+      </div>
+      <div className="footer-right">
+          <Contact />
+      </div>
     </footer>
   );
 }
