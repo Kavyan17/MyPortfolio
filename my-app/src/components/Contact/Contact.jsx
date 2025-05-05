@@ -18,9 +18,9 @@ const icons = {
   medium,
 };
 
-const Contact = () => {
+const Contact = ({ className = "contact-container" }) => {
   return (
-    <div className="contact-container">
+    <div className={className}>
       {contactData.map(({ id, media, link }) => (
         <a
           key={id}
