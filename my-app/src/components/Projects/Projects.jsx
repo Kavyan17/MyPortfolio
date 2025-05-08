@@ -5,7 +5,7 @@ import '../../styles/Projects.css';
 const Projects = () => {
   return (
     <div className="projects-container">
-      <h2 className="projects-title">🚀 Projects</h2>
+      {/* <h2 className="projects-title">🚀 Projects</h2> */}
       <div className="projects-grid">
         {projectData.map(({ id, title, link, desc }) => (
           <a

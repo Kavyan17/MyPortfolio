@@ -22,5 +22,11 @@
         "title": "UTD FreshMart",
         "link": "https://github.com/Kavyan17/UTD-FreshMart",
         "desc": ""
+    },
+    {
+        "id": 5,
+        "title": "My Portfolio",
+        "link": "https://github.com/Kavyan17/MyPortfolio",
+        "desc": ""
     }
 ]
