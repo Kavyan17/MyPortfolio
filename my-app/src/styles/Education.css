@@ -1,32 +1,38 @@
-body {
-    background-color: #fff !important;
-    margin: 0;
-    padding: 0;
-}
-
 .education-container {
-    padding: 40px 20px;
+    /*
+    background-color: #fff;
+    max-width: 1200px;  
+    margin: 0 auto;   */
+    padding: 20px 20px;
+    min-height: auto;
+    text-align: center;
+    color: #000;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: #fff;
-    color: #000;
 }
 
-.edu-title {
+/* .edu-title {
     font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 40px;
     text-align: center;
-}
+} */
 
 .edu-grid {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 40px 60px; /* vertical gap and horizontal gap */
-    max-width: 1100px;
+    /*max-width: 2000px;
     width: 100%;
-    justify-content: center;
+    margin: 0 auto; */
+    min-height: auto; 
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 70px 10px;
+    margin-top: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
 .edu-card {
@@ -40,7 +46,7 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
 }
 
 .edu-header {
