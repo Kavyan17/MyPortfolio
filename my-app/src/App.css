@@ -1,3 +1,9 @@
+body {
+  background-color: #fff !important;
+  margin: 0;
+  padding: 0;
+}
+
 /* General layout */
 .app-container {
   display: flex;
@@ -85,8 +91,8 @@ main {
 }
 
 .coursework-active {
-  border: 2px dotted #008b8b;
-  background-color: #e0f7f7;
+  border: 2px dotted #f7dea8;
+  background-color: #ffaa00;
 }
 
 .tech-active {

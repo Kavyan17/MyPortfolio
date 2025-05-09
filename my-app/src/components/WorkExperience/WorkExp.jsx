@@ -30,7 +30,7 @@ const glowColors = {
 const WorkExperience = () => {
   return (
     <div className="work-container">
-      <h2 className="work-title">Workstation Adventures 🚀</h2>
+      {/* <h2 className="work-title">Workstation Adventures 🚀</h2> */}
       <div className="work-grid">
         {workData.map((item) => (
           <div className="work-card" key={item.id}>

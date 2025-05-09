@@ -40,7 +40,7 @@ const Education = () => {
 
     return (
         <div className="education-container">
-            <h1 className="edu-title">My Scholar Saga 📚✨</h1>
+            {/* <h1 className="edu-title">My Scholar Saga 📚✨</h1> */}
             <div className="edu-grid">
                 {educationData.map((edu, index) => (
                     <div
