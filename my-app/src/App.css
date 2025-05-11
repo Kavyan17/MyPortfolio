@@ -81,18 +81,18 @@ main {
 }
 
 .education-active {
-  border: 2px dashed #6a0dad;
-  background-color: #f4e1ff;
+  border: 2px solid black;
+  background-color: rgb(176, 176, 176);
 }
 
 .workexp-active {
-  border: 2px solid #ff8c00;
-  background-color: #fff3e0;
+  border: 2px solid #00ff00;
+  background-color: #d3fbd3;
 }
 
 .coursework-active {
-  border: 2px dotted #f7dea8;
-  background-color: #ffaa00;
+  border: 2px solid #f7dea8;
+  background-color: #e9ba5b;
 }
 
 .tech-active {
@@ -101,6 +101,6 @@ main {
 }
 
 .projects-active {
-  border: 2px double #228b22;
+  border: 2px solid #228b22;
   background-color: #e6ffe6;
 }
