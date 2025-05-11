@@ -66,3 +66,32 @@
     transform: rotateY(0deg);
   }
   
+  .university-logo {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .university-logo img {
+    max-height: 30px;
+    object-fit: contain;
+  }
+
+  .course-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .course-logo {
+    max-height: 30px;
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .course-code {
+    font-weight: bold;
+  }
+  
