@@ -34,6 +34,14 @@
     width: 100%;
     margin-top: 40px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+
+    /* display: flex;
+    grid-auto-flow: column; /* Fill columns first */
+    /* grid-template-rows: repeat(3, auto); /* 3 rows per column */
+    /* gap: 70px 50px; /* vertical gap, horizontal gap 
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px; */ 
 }
 
 .edu-card {
