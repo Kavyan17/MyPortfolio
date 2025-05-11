@@ -14,9 +14,10 @@ const Coursework = () => {
               <h3>{course.title}</h3>
             </div>
             <div className="book-content">
-              <p><strong>Course:</strong> {course.course_no}</p>
+              <p><strong>{course.course_no}</strong></p>
               <p><strong>University:</strong> {course.assosciated_with}</p>
               <p><strong>Grade:</strong> {course.grade}</p>
+              <p><strong>Topics:</strong> {course.topics}</p>
             </div>
           </div>
         ))}
