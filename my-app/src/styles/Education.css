@@ -29,8 +29,9 @@
     min-height: auto; 
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    gap: 70px 10px;
+    justify-content: center;
+    gap: 70px 50px;
+    width: 100%;
     margin-top: 40px;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
@@ -46,7 +47,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
 }
 
 .edu-header {
