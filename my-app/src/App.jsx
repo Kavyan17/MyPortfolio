@@ -14,11 +14,11 @@ function Header() {
       <h2>Kavya Nandigam's Portfolio</h2>
       <nav>
         <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link home-active' : 'nav-link'}>Home</NavLink>
-        <NavLink to="/education" className={({ isActive }) => isActive ? 'nav-link education-active' : 'nav-link'}>Education</NavLink>
         <NavLink to="/workexp" className={({ isActive }) => isActive ? 'nav-link workexp-active' : 'nav-link'}>Work Exp</NavLink>
-        <NavLink to="/coursework" className={({ isActive }) => isActive ? 'nav-link coursework-active' : 'nav-link'}>Coursework</NavLink>
-        <NavLink to="/technologies" className={({ isActive }) => isActive ? 'nav-link tech-active' : 'nav-link'}>Technologies</NavLink>
         <NavLink to="/projects" className={({ isActive }) => isActive ? 'nav-link projects-active' : 'nav-link'}>Projects</NavLink>
+        <NavLink to="/technologies" className={({ isActive }) => isActive ? 'nav-link tech-active' : 'nav-link'}>Technologies</NavLink>
+        <NavLink to="/education" className={({ isActive }) => isActive ? 'nav-link education-active' : 'nav-link'}>Education</NavLink>
+        <NavLink to="/coursework" className={({ isActive }) => isActive ? 'nav-link coursework-active' : 'nav-link'}>Coursework</NavLink>
       </nav>
     </header>
   );
