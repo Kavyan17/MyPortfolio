@@ -3,30 +3,30 @@
         "id": 1,
         "title": "Resume Builder",
         "link": "https://github.com/Kavyan17/Resume-Builder",
-        "desc": ""
+        "desc": "The Resume Builder project, sponsored by the PFW Career Development Center, helps students create strong, job-ready resumes. It uses AI to match student qualifications with targeted job descriptions."
     },
     {
         "id": 2,
         "title": "ProFolio",
         "link": "https://github.com/Kavyan17/ProFolio",
-        "desc": ""
+        "desc": "PROFOLIO is a no-code web application that lets users easily create personalized, visually appealing portfolios. It's designed for developers, designers, artists, and students to showcase their work and skills."
     },
     {
         "id": 3,
         "title": "Operating Systems",
         "link": "https://github.com/Kavyan17/Operating_Systems",
-        "desc": ""
+        "desc": "A multi-phase Operating Systems project in C and Unix shell scripting, featuring CPU/memory simulation, multi-process execution with scheduling, socket-based communication, and a memory manager for efficient process allocation."
     },
     {
         "id": 4,
         "title": "UTD FreshMart",
         "link": "https://github.com/Kavyan17/UTD-FreshMart",
-        "desc": ""
+        "desc": "An e-commerce platform for UTD FreshMart, enabling customers to shop for food and household items online. It includes features for vendor inventory management and admin oversight of transactions and operations."
     },
     {
         "id": 5,
         "title": "My Portfolio",
         "link": "https://github.com/Kavyan17/MyPortfolio",
-        "desc": ""
+        "desc": "A personal portfolio website hosted on GitHub to showcase projects, skills, and experience in a clean, responsive design."
     }
 ]
